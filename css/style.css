@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/**********************/
+#menu {
+    background-image: url(../images/bg.JPG);
+    height: 270px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#menu .page-title {
+    text-align: center;
+    font-size: 40px;
+}
+.page-header {
+    display: flex;/*横並び*/
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin-top: 5px;/*上の空き幅*/
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #fff; 
+}
+.main-nav a:hover {
+    /* 選択したときの色 */
+    color: #ff8585;
+}
+
+
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+
+.shift textarea,
+.shift input {
+    display: block;
+    width: 25%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.shift textarea {
+    width: 50%;
+    height: 300px;
+}
+
+
+
+
+
+/*フッター*/
+footer {
+    background: #432;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}

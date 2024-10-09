@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>勤務時間計算ツール</title>
+        <meta name="description" content="勤務時間計算ツール">
+        <link rel="icon" type="image/jpg" href="images/logo.jpg">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.mon.css">
+        <link href="https://fonts.googleapis.com/css?family=philosopher" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div id="menu" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="images/logo.JPG" alt="ホーム"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <!-- <li><a href="news.html">News</a></li> -->
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <h2 class="page-title">勤務時間計算ツール</h2>
+            </div>
+        </div>  
+
+
+        <p class="wrapper"><a href="https://crew-p.usj.co.jp/cws/mbl/MblActLogin" target="_blank">USJシフト管理サイト</a>で配信されているシフトの合計勤務時間を計算します</p>
+
+
+
+
+        <div class="shift wrapper">
+            <form action="example.php" method="post" name="cantactform">
+                <textarea name="shift" placeholder="シフト貼り付け"></textarea>
+                <input type="submit" value="計算">
+            </form>
+        </div>
+
+
+
+
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2024 R.M.</small></p>
+            </div>
+        </footer>
+
+    </body>
+</html>
