@@ -6,6 +6,8 @@ if (name === '和田渚') {
     window.alert('なぎこんにちは！！');
 }else if (name === null) {
     window.alert('くーちゃんこんにちは！！');
+}else if (name === '') {
+    window.alert('くーちゃんこんにちは！！');
 }else {
     window.alert(name+'さんこんにちは！！');
 }
